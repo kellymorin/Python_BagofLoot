@@ -248,7 +248,13 @@ if __name__ == "__main__":
                 print("Missing child name argument")
 
         elif sys.argv[1] == 'help':
-            print('help')
+            print('''
+                add [toy][child]
+                remove [child][toy]
+                ls (list all)
+                ls (list one) [child]
+                deliver [child]
+            ''')
 
         else:
             print("You cannot do that! Type help")
